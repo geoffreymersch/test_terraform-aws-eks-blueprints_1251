@@ -1,0 +1,8 @@
+promtail:
+  enabled: false
+
+compactor:
+  retention_enabled: true
+
+limits_config:
+  retention_period: 30d
